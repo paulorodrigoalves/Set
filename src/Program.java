@@ -15,7 +15,7 @@ public class Program {
         c.addAll(b);
         System.out.println(c);
 
-        //Intersecção
+        //Interseção
         Set<Integer> d = new TreeSet<>(a);
         d.retainAll(b);
         System.out.println(d);
